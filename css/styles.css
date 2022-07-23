@@ -77,7 +77,7 @@ bacground
    color: rgba(47, 48, 58, 1);
 }
  
-h1 {
+.hero-link {
    color: # цвет заголовка
    font-size:: 24pt;размер шрифта
    font-family: семейство шрифтов
