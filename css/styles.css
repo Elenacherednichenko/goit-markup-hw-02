@@ -4,10 +4,10 @@
  }
    
   /* .var(--accent-text-color);!!!!*/
- 
-
- .body {
-   font-family:'Roboto', Raleway;
+  .body {
+   font-family:'Roboto';
+   color:
+rgba(33, 33, 33, 1);
    }
 .list {
   list-style: none; 
@@ -16,12 +16,12 @@
 .header-link{ вебстудио
 font weight :700;
 font size :26px
-line-height: ;
-letter-spacing://////// ;
+line-height: 31/26;
+letter-spacing: 0.03em;
 width: 1600px;
-color: 
-rgba(255, 255, 255, 1);
-background: #FFFFFF;
+color: rgba(255, 255, 255, 1);
+rgba(0, 0, 0, 1)
+background:rgba(0, 0, 0, 1);
 rgba(33, 150, 243, 1)
 }
 .site-nav studia{
