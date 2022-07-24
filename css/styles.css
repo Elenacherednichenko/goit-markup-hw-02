@@ -1,22 +1,23 @@
  .site-nav.current{
    font-family: "Roboto" 
-   font-size
  }
    
   /* .var(--accent-text-color);!!!!*/
   .body {
    font-family:'Roboto';
-   color:
-rgba(33, 33, 33, 1);
+   color:rgba(33, 33, 33, 1);
    }
 .list {
   list-style: none; 
 }
+.header {
+    background-color:#FFFFFF ;
 
+}
 .header-link{ вебстудио
 font weight :700;
 font size :26px
-line-height: 31/26;
+line-height: 1.19;
 letter-spacing: 0.03em;
 width: 1600px;
 color: rgba(255, 255, 255, 1);
@@ -27,74 +28,141 @@ rgba(33, 150, 243, 1)
 .site-nav studia{
 font weight :700;
 font size :14px
-line-height: ;
-letter-spacing://////// ;
+line-height: 1.14 ;
+letter-spacing: 0.02em ;
 width:  49px;
-color: 
-rgba(33, 150, 243, 1)
+color: rgba(33, 33, 33, 1)
 }
+
 .portfolio {
 font weight :500;
 font size :14px
-line-height: ;
-letter-spacing://////// ;
+line-height:1.29 ;
+letter-spacing:0.0em;
 width:  77px;
-color: rgba(33, 33, 33, 1) 
+color: rgba(33, 150, 243, 1) 
 }
 .contacty {
 font weight :500;
 font size :14px
-line-height: ;
-letter-spacing://////// ;
-width:  135px; 
+line-height: 1.14;
+letter-spacing: 0.02em ;
+width:  68px; 
 color:
 rgba(33, 33, 33, 1)
 }
+
 .email {
 font weight :500;
 font size :14px
-line-height: ;
-letter-spacing://////// ;
+line-height: 1.7;
+letter-spacing: 0.02em ;
 width:  135px; 
-color; rgba(33, 150, 243, 1)
+color; rgbargba(117, 117, 117, 1)
 }
 .phone {
 font weight :500;
 font size :14px
-line-height: ;
-letter-spacing://////// ;
-width:  135px; 
+line-height: 1.14;
+letter-spacing:0.02em ;
+width:  122px; 
 color:
 rgba(117, 117, 117, 1)
 }
-rgba(33, 33, 33, 1)
-background: #FFFFFF;
-rgba(33, 150,
-.main
-background: #FFFFFF;
-color;rgba(255, 255, 255, 1){
-bacground
-   color: rgba(47, 48, 58, 1);
+
+.main {
+background:  #E5E5E5;
 }
  
-.hero-link {
-   color: # цвет заголовка
-   font-size:: 24pt;размер шрифта
-   font-family: семейство шрифтов
-   font-weight: normal
-   letter spacing: 0.09em
-   text-transform: uppercase;
-}
-p {
+.content {
+font weight :500;
+font size :16px
+line-height: 1.6;
+letter-spacing:0.03em ;
+width:  122px; 
+color:
+rgba(255, 255, 255, 1)
+ background: #2196F3;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);  
+ }
 
-}
 .button {
-   color: ;
-}
-.button: hover,focus 
+  font weight :500;
+font size :16px
+line-height: 1.6;
+letter-spacing:0.03em ;
+width:  76px; 
+color:rgba(33, 33, 33, 1)
+.button: hover,
+.button: focus 
+color:
 {
-color:blue;
+
+ .item name {
+font weight :700;
+font size :18px
+line-height: 2.0;
+letter-spacing:0.06em ;
+width:  109px; 
+color:
+rgba(33, 33, 33, 1)
+background: url(.jpg);
 }
-.footer{
-color: rgba(47, 48, 58, 1);
+
+ .item-name {
+  font weight :700;
+font size :18px
+line-height: 2.0;
+letter-spacing:0.06em ;
+width:  322px; 
+color: 
+rgba(117, 117, 117, 1)
+ }
+ 
+.item-name {
+  font weight :700;
+font size :18px
+line-height: 2.0;
+letter-spacing:0.06em ;
+width:  322px; 
+color: 
+rgba(117, 117, 117, 1)
+ }
+
+ .footer {
+background-color: 
+rgba(47, 48, 58, 1);
+ }
+
+.footer text
+font weight :400;
+font size :14px
+line-height: 1.7;
+letter-spacing:0.03em ;
+width:  231px; 
+color:rgba(255, 255, 255, 1)
+
+.mailto {
+font weight :400;
+font size :14px
+line-height: 1.7;
+letter-spacing: 0.02em ;
+width:  135px; 
+color; rgba(255, 255, 255, 0.6)
 }
+.phone {
+font weight :400;
+font size :14px
+line-height: 1.7;
+letter-spacing:0.03em ;
+width:  231px; 
+color:
+rgba(255, 255, 255, 0.6)
+}
+
+
+
+
+
+/*}font-family: семейство шрифтовtext-transform: uppercase;*/
