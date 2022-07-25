@@ -1,7 +1,16 @@
- .site-nav.current{
-   font-family: "Roboto" 
- }
-   
+:root {
+--primary-text-color:
+rgba(33, 33, 33, 1)
+--title-text-color:
+rgba(117, 117, 117, 1)
+--secondary-text-color:
+rgba(33, 150, 243, 1)
+ --accent-color:
+rgba(33, 150, 243, 1)
+ --primary-background-color:#E5E5E5;
+ --secondary-background-color:#2F303A;
+} 
+
   /* .var(--accent-text-color);!!!!*/
   .body {
    font-family:'Roboto', sans-serif;
@@ -9,24 +18,17 @@
    color:rgba(33, 33, 33, 1);
    background: #FFFFFF;
    }
-.list {
+.list{
   list-style: none; 
 }
+
 .header {
     background-color:#FFFFFF ;
-
-}
-.link:hover,
-.link:focus,
-.btn:hover,
-.btn:focus {
-   color: var(--accent-text-color)
 }
 
-.header-link{ вебстудио
+.header-link{ 
 font-family: 'Raleway';
 font-style: normal;
-.text primary
 font weight :700;
 font size :26px
 line-height: 1.19;
@@ -34,11 +36,11 @@ letter-spacing: 0.03em;
 width: 1600px;
 color:rgba(33, 150, 243, 1);
 background:rgba(0, 0, 0, 1);
-rgba(33, 150, 243, 1)
 text-decoration: none;
+color: var(--secondary-title-text-color);
 }
 
-.site-nav studia{
+.site-nav {
 font weight :700;
 font size :14px
 line-height: 1.14 ;
@@ -81,8 +83,6 @@ letter-spacing:0.02em ;
 width:  122px; 
 color:
 rgba(117, 117, 117, 1);
-hover 
-focus
 }
 
 .main {
@@ -109,12 +109,8 @@ line-height: 1.6;
 letter-spacing:0.03em ;
 width:  76px; 
 color:rgba(33, 33, 33, 1)
-.button: hover,
-.button: focus 
-color:
-{
 
- .item name {
+.item name {
 font weight :700;
 font size :18px
 line-height: 2.0;
@@ -147,7 +143,6 @@ rgba(117, 117, 117, 1)
 
  .footer {
 background-color: # #2F303A;
-/*rgba(47, 48, 58, 1)*/;
  }
 
 .footer text
@@ -157,7 +152,8 @@ line-height: 1.7;
 letter-spacing:0.03em ;
 width:  231px; 
 color:rgba(255, 255, 255, 1)
-
+.link {text-decoration: none;
+}
 .mailto {
 font weight :400;
 font size :14px
