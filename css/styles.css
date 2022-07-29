@@ -7,20 +7,23 @@
 #000000;
  --accent-color:
 #2196F3;
---secondary accent-color: #188CE8;
---primary white color: #FFFFFF;
+--secondary-accent-color: #188CE8;
+--primary-white-color: #FFFFFF;
  --primary-background-color: #2F303A;
  --secondary-background-color: #F5F4FA;
 } 
-
-  /* .var(--accent-text-color);!!!!*/
-  .body {
+html{
+  box-sizing: border-box;
+}
+  *,
+  *: before,
+  *: after
+}
+  body {
    font-family:'Roboto', sans-serif;
-   font-weight: 700;
    font-size: 14px;
    letter-spacing: 0.03em;
-   color:var (--primary-text-color);
-   background color:var(--primary white color);
+   color: var(--primary-text-color);
   } 
 
 ul{
@@ -29,51 +32,43 @@ ul{
 a{
  text-decoration: none; 
 } 
-.header nav{
-  background-color: var (--primary white color);
+.nav{
+  background-color: var(--primary white color);
+
+  .header {
+  line-height: 1.19;
+  letter-spacing: 0/03em;
+  font-weight: 500;
+  color: var(--secondary-title-text-color);
+  }
+
+  .header:hover{
+  color: var(--accent-color);
 }
-.page header{ 
-font-size :26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-width: 1600px;
-color:rgba(33, 150, 243, 1);
-background:rgba(0, 0, 0, 1);
-text-decoration: none;
-color: var(--secondary-title-text-color);
-background-color:#E5E5E5 ;
-}
- 
+
        /*Logo*/
 
 .logo{
   font-family:'Raleway',sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  font-weight: 700;
   color: var(--secondary-title-text-color);
-  text-decoration: none;
 }
 
 .logo accent{
   color: var(--accent-color);
 }     
 
-.site-nav {
-font-size :14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-width:  49px;
-color: rgba(33, 33, 33, 1);
-}
-.link.current {
+.header current {
 color: var(--accent-color);
 } 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
+.header item:hover,
+.header item:focus {
+color: var(--accent-color);
 }
 
-.link {
+.header item{
 font-weight :500;
 font-size :14px;
 line-height: 1.14;
@@ -81,24 +76,31 @@ letter-spacing:0.02em ;
 color: var(--primary-text-color);
 }
 
-.mailto {
+.email {
 font-size :14px;
 line-height: 1.14;
 letter-spacing: 0.02em ;
+font-weight :500;
 color: var(--title-text-color);
 }
+
 .mailto:hover, 
 .mailto:focus{
   color var(--accent-color);
 }
+
 .phone {
-font-weight :500;
-font-size :14px;
+font-weight: 500;
+font-size: 15px;
 line-height: 1.14;
-letter-spacing:0.02em ;
-width:  122px; 
+letter-spacing: 0.02em ; 
 color: var(--title-text-color);
 }
+
+.phone:hover{
+  color: var(--accent-color);
+}
+
 
 .hero {
 background-color: var(--primary-background-color);
@@ -109,11 +111,10 @@ font-weight :900;
 font-size :44px;
 line-height: 1.36;
 letter-spacing:0.06em ;
-color:var(--primary white color);
- text-transform: uppercase;
-/* shadow-middle */
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);  
- }
+color: var(--primary-white-color);
+text-align: center;
+text-transform: uppercase;
+}
 
  .hero button:hover,
  .hero button:focus{
@@ -137,9 +138,10 @@ background-color:var (--accent-color);
  }
 
 .button { 
-color:var (--primary-text-color);
-background: (--secondary-background-color);
+color: var (--primary-text-color);
+background-color: var(--accent-color);
 }
+
 .button.primary:hover,
 .button.primary:focus {
 color: var(--primary white color);
@@ -147,36 +149,41 @@ background-color:var (--accent-color);
 } 
 
 .button.primary {
-  font-family: inherit;
-  cursor: pointer;
-  font-weight: 500;
+font-family: inherit;
+cursor: pointer;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
 
-.button group.button:hover,
-.button group.button:focus{
-  color:var(--primary white color);
-  background: var (--accent-color);
+.btn group .button:hover,
+.btn group .button:focus {
+color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
 
-.button-group.button{
-   font-family: inherit;
-  cursor: pointer;
-  font-weight: 500;
+.btn-group .button{
+font-family: inherit;
+cursor: pointer;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
-color:(--primary-text-color);
-background-color:var (--secondary-background-color);
+color: var(--primary-text-color);
+background-color: var (--secondary-background-color);
 }
 
 .photo {
   text-decoration: none;
 }
+
+        /* наш особенност*/
 .section features {
- background-color:var(--primary white color);
+ background-color:var(--primary-white-colorwhite-color);
 }
 
 .visually hidden {
@@ -193,19 +200,39 @@ margin: -1px;
 }
 
 .features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+
+.features-text {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-color:(--title-text-color);
+color: var(--title-text-color);
 }
-.headers-list
+
+    /*наша команда*/
 .section team{
   background-color: var(--secondary-background-color);
-};
+}
 
 .work-title {
+font-weight: 700; 
+font-size :36px;
+line-height: 1.17;
+text-align: center;
+color: var(--primary-text-color);
+}
+.team-item {
+  background-color: var(--primary-white-colorolor);
+}
+
+.team-title
 font-weight: 500; 
-font-size :16px;
+font-size : 16px;
 line-height: 1.18;
 text-align: center;
 color: var(--primary-text-color);
@@ -217,7 +244,8 @@ font-size :16px;
 line-height: 1.18;
 text-align: center;
 color: var(--title-text-color);
-}   
+}
+
 .gallery-title-hidden {
 display: none;
 }          
@@ -229,6 +257,7 @@ line-height: 2.0;
 letter-spacing: 0.06em;
 color: var(--primary-text-color);
 }
+
 .example work {
 font-weight: 400; 
 font-size :16px;
@@ -240,25 +269,38 @@ color: var(--title-text-color);
  .footer {
 background-color: var{--primary-background-color;
  }
-.adress {
+
+ .footer .logo{
+ font-family:'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: var(--primary-white-color)
+  background-color: var (var(--primary-background-color))
+ }
+
+ .adress {
 font-style: normal;
 }
+
 .adress-item:hover,
 .adress-item:focus{
   color: var (--accent-color);
 }
+
 .adress-item{
 font-weight: 400;
 font-size :14px
 line-height: 1.7;
-color:var (--primary white color);
+color:var (--primary-white-color);
 }
+
 .footer text {
 font-weight: 700;
 font-family: 'Raleway';
 font-size :26px
 line-height: 1.19;
-color:var (--primary white color);
+color:var (--primary-white-color);
 background-color: var(--primary-background-color);
 }
 
