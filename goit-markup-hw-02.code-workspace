@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../goit-markup-hw-01/image"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-02",
+    "liveServer.settings.port": 5501
+  }
+}
