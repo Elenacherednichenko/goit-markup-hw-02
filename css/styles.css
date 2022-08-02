@@ -40,6 +40,16 @@ a {
   letter-spacing: 0.03em;
   font-weight: 500;
   color: var(--secondary-title-text-color);
+  border: 1px solid #000000;
+}
+
+.container {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  height: ;
+  outline: 2px solid tomato;
 }
 
 .header:hover {
@@ -76,13 +86,6 @@ a {
   color: var(--primary-text-color);
 }
 
-.mailto {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-}
-
 .mailto:hover,
 .mailto:focus {
   color: var(--accent-color);
@@ -93,6 +96,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 .phone:hover {
@@ -101,6 +105,8 @@ a {
 
 .hero {
   background-color: var(--primary-background-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero-title {
@@ -115,7 +121,7 @@ a {
 
 .hero button:hover,
 .hero button:focus {
-  background-color: var(--secondary-accent-color);
+  background-color: var(--secondary-accent-coloraccent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--primary-white-color);
@@ -136,8 +142,16 @@ a {
 }
 
 .button {
+  display: inline-block;
+  height: 30px;
+  min-width: 136px;
+  vertical-align: bottom;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
   color: var(--primary-text-color);
   background-color: var(--accent-color);
+  border: 1px solid transparent;
 }
 
 .button.primary:hover,
@@ -216,7 +230,6 @@ a {
 
 /*наша команда*/
 .team {
-  background-color: var(--secondary-background-color);
 }
 
 .work-title {
@@ -227,7 +240,7 @@ a {
   color: var(--primary-text-color);
 }
 .team-item {
-  background-color: var(--primary-white-colorolor);
+  background-color: var(--primary-white-color);
 }
 
 .team-title {
@@ -264,6 +277,7 @@ a {
   line-height: 1.9;
   color: var(--title-text-color);
 }
+
 .footer {
   background-color: var(--primary-background-color);
 }
@@ -284,7 +298,7 @@ a {
 
 .adress-item:hover,
 .adress-item:focus {
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 
 .adress-item {
@@ -299,7 +313,7 @@ a {
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
-  color: var(--primary-white-color);
+  color: var (--primary-white-color);
   background-color: var(--primary-background-color);
   margin-bottom: 20px;
 }
@@ -331,7 +345,6 @@ a {
   width: 231px;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
