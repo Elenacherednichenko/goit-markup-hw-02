@@ -33,6 +33,7 @@ a {
 }
 .nav {
   background-color: var(--primary-white-color);
+  justify-content: center;
 }
 
 .header {
