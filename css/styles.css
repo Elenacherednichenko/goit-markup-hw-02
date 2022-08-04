@@ -8,21 +8,13 @@
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
 }
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 body {
-  margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
 ul {
@@ -33,34 +25,13 @@ a {
 }
 .nav {
   background-color: var(--primary-white-color);
-  justify-content: center;
-}
-
-.header {
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  font-weight: 500;
-  color: var(--secondary-title-text-color);
-  border-bottom: 1px solid #757575;
-}
-
-.container {
-  max-width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  height: ;
-  outline: 2px solid tomato;
-}
-
-.header:hover {
-  color: var(--accent-color);
 }
 
 /*Logo*/
 
 .logo {
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
@@ -73,6 +44,18 @@ a {
 
 .header current {
   color: var(--accent-color);
+
+  .header {
+    line-height: 1.19;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--secondary-title-text-color);
+    border-bottom: 1px solid #757575;
+  }
+
+  .header:hover {
+    color: var(--accent-color);
+  }
 }
 .header item:hover,
 .header item:focus {
@@ -100,7 +83,8 @@ a {
   color: var(--title-text-color);
 }
 
-.phone:hover {
+.phone:hover,
+.phone:focus: {
   color: var(--accent-color);
 }
 
@@ -116,8 +100,6 @@ a {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .hero button:hover,
@@ -128,15 +110,12 @@ a {
 }
 
 .hero button {
-  display: flex;
   font-family: inherit;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  align-items: center;
-  text-align: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
