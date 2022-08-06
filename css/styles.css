@@ -14,7 +14,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
 }
 
 ul {
@@ -24,6 +23,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 .nav {
   background-color: var(--primary-white-color);
 }
@@ -36,6 +36,7 @@ a {
   color: var(--secondary-title-text-color);
   background-color: var(--primary-white-color);
   text-decoration: none;
+  list-style: none;
 }
 
 .logo-accent {
@@ -70,8 +71,7 @@ a {
   color: var(--primary-text-color);
 }
 
-.mailto:hover,
-.mailto:focus {
+.mailto:hover {
   color: var(--accent-color);
 }
 
@@ -80,7 +80,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .phone {
@@ -316,7 +316,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: var(--primary-white-color-color);
 }
 
 .mailto:hover,
