@@ -14,20 +14,19 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
-.ul {
+ul {
   list-style: none;
 }
 
-.a {
+a {
   text-decoration: none;
 }
 .nav {
   background-color: var(--primary-white-color);
 }
-
-/*Logo*/
 
 .logo {
   font-family: "Raleway";
@@ -35,27 +34,28 @@ body {
   line-height: 1.19;
   font-weight: 700;
   color: var(--secondary-title-text-color);
+  background-color: var(--primary-white-color);
+  text-decoration: none;
 }
 
 .logo-accent {
   color: var(--accent-color);
 }
 
-.header current {
+.header {
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  border-bottom: 1px solid #757575;
+  color: var(--primary-text-color);
+}
+
+.header.current {
   color: var(--accent-color);
+}
 
-  .header {
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    font-weight: 500;
-    color: var(--secondary-title-text-color);
-    border-bottom: 1px solid #757575;
-    background-color: var(--primary-white-color);
-  }
-
-  .header:hover {
-    color: var(--accent-color);
-  }
+.header:hover {
+  color: var(--accent-color);
 }
 .header item:hover,
 .header item:focus {
@@ -75,16 +75,23 @@ body {
   color: var(--accent-color);
 }
 
-.phone {
+.mailto {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
-.phone:hover,
-.phone:focus: {
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.phone:hover {
   color: var(--accent-color);
 }
 
@@ -127,7 +134,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   border: none;
 }
 
@@ -207,7 +214,7 @@ body {
 
 /*наша команда*/
 .team {
-  background-color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
 }
 
 .work-title {
@@ -260,17 +267,15 @@ body {
   background-color: var(--primary-background-color);
 }
 
-. logofooter {
-  background color:(--primary-background-color);
-  color: var(--primary-white-color);
+.logofooter {
+  color: var(--accent-color);
 }
-
 .logo {
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
-  color: var(--accent-color);
+  color: var(--primary-white-color);
   background-color: var(--primary-background-color);
   margin-bottom: 20px;
 }
@@ -297,7 +302,7 @@ body {
   font-size: 14px;
   line-height: 1.19;
   color: var(--primary-white-color);
-  background-color: var(secondary-background-color);
+  background-color: var(--secondary-background-color);
   margin-bottom: 20px;
 }
 
