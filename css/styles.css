@@ -276,6 +276,7 @@ a {
 
 .logo-down {
   font-family: "Raleway";
+  font-style: normal;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
@@ -284,6 +285,16 @@ a {
   margin-bottom: 20px;
   text-decoration: none;
   list-style: none;
+}
+.logo-down:hover,
+.logo-down:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--primary-background-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .adress {
