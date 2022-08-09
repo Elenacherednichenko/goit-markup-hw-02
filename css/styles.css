@@ -67,6 +67,12 @@ a {
   background-color: var(--primary-white-color);
 }
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: 0;
+}
 .mailto {
   font-weight: 500;
   font-size: 14px;
