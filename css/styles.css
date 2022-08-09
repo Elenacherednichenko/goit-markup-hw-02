@@ -29,12 +29,11 @@ a {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
   color: var(--accent-color);
-  text-decoration: none;
   list-style: none;
 }
 
@@ -44,9 +43,8 @@ a {
 
 .header {
   line-height: 1.19;
-  letter-spacing: 0.03em;
   font-weight: 500;
-  border-bottom: 1px solid #757575;
+  border-bottom: 1px solid #ececec;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
@@ -73,7 +71,6 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
@@ -86,7 +83,6 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -131,17 +127,17 @@ a {
 .button {
   font-weight: 500;
   font-size: 16px;
+  height: 38px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
-  background-color: var(--primary-background-color);
+  background-color: var(--second-background-color);
   border: none;
 }
 
 .button.primary:hover,
 .button.primary:focus {
   color: var(--primary-white-color);
-  background-color: var(--title-text-color);
+  background-color: var(--accent-color);
 }
 
 .button.primary {
@@ -151,7 +147,6 @@ a {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -228,7 +223,6 @@ a {
   line-height: 1.17;
   text-align: center;
   color: var(--primary-text-color);
-  background-color: #f5f5f5;
 }
 .team-item {
   background-color: var(--primary-white-color);
@@ -239,7 +233,6 @@ a {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -261,10 +254,10 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  background-color: (var(--primary-white-color);
 }
 
 .example work {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--title-text-color);
@@ -280,21 +273,10 @@ a {
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: var(--secondary-title-text-color);
   margin-bottom: 20px;
   text-decoration: none;
   list-style: none;
-}
-.logo-down:hover,
-.logo-down:focus {
-  color: var(--accent-color);
-}
-
-.hero {
-  background-color: var(--primary-background-color);
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .adress {
@@ -307,14 +289,12 @@ a {
 }
 
 .adress-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--primary-white-color);
 }
 
 .footer text {
-  font-weight: 400;
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.19;
@@ -323,7 +303,6 @@ a {
 }
 
 .mailto-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.02em;
@@ -338,9 +317,7 @@ a {
 .tel-item {
   font-family: inherit;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .tel-item:hover,
