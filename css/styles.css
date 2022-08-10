@@ -260,7 +260,7 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  background-color: (var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
 .example work {
@@ -279,7 +279,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
-  color: var(--secondary-title-text-color);
+  color: var(--primary-white-color);
   margin-bottom: 20px;
   text-decoration: none;
   list-style: none;
